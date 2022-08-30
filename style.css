@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    background-color:burlywood;
+    background-image: url(imgs/fondopatas.gif);
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 80px;
+    background-color:rgb(242, 206, 159);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo img{
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+h1{
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+nav{
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #9c7d1f;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header li{
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+.hyperlink{
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    max-width: 75%;
+    margin-top: 10px;
+}
+
+article{
+    max-width: 80%;
+    margin: 2% 10% 0% 10%;
+    padding: 5px 30px 5px 30px;
+    border-radius: 20px;
+    background-color:rgb(242, 206, 159);
+    text-align: center;
+    box-shadow: 0px 3px 3px rgb(41, 40, 37)
+}
+
+section{
+    padding: 0px 20px 0px 20px;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+section a:hover{
+    color: #be6500;
+}
+
+footer {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#foto-perro{
+    max-width: 30%;
+    border-radius: 20px;
+    margin: 5px 0px 15px 0px;
+}
+
+.lista-gatos{
+    text-align: left;
+    padding-left: 20%;
+}
+
+#foto-gato{
+    max-width: 30%;
+    border-radius: 20px;
+    margin: 5px 0px 15px 0px
+}
+
+#foto-perro-menu{
+    max-width: 20%;    
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#foto-gato-menu{
+    max-width: 20%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+article form{
+    text-align: left;
+    display: block;
+}
+
+form{
+    padding: 0% 30% 0% 30%;
+}
+
+form h3{
+    text-align: center;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
+#boton-submit{
+    background-color: rgb(106, 175, 177);
+}
+
+#boton-reset{
+    background-color: rgb(251, 179, 179);
+}

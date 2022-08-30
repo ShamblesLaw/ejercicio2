@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales - Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+
+        <a href="index.html" class="logo">
+            <img src="imgs/logo_animales.gif" alt="logo-animales">
+            <h1>Animales</h1>
+        </a>
+
+        <nav>
+            <ul>
+                <li class="hyperlink"><a href="index.html"><b>Inicio</b></a></li>
+                <li class="hyperlink"><a href="perros.html"><b>Perros</b></a></li>
+                <li class="hyperlink"><a href="gatos.html"><b>Gatos</b></a></li>
+                <li class="hyperlink"><a href="consultas.html"><b>Consultas</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <h2>Consultas</h2>
+
+            <form action="">
+
+                <h3>Ingrese los datos</h3>
+
+                <label for="nombre">Nombre: </label>
+
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"><br>
+
+                <label for="correo">Correo electrónico: </label>
+
+                <input type="email" name="correo" id="correo"><br>
+
+                <label for="animal">Animal: </label>
+
+                <input type="text" name="animal" id="animal"><br>
+
+                <label for="consulta">Consulta:</label><br>
+
+                <textarea name="consulta" id="consulta" cols="30" rows="5" placeholder="Ej: ¿Los perros pueden comer chocolate?"></textarea><br>
+
+                <input type="submit" id="boton-submit" value="Enviar">
+
+                <input type="reset" id="boton-reset" value="Cancelar">
+
+            </form>
+            
+        </article>
+    </main>
+
+    <footer>
+        <hr>
+        <p><b>© Leandro Gómez 2022</b></p>
+    </footer>
+
+</body>
+</html>
